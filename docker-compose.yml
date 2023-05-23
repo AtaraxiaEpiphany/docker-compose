@@ -16,6 +16,11 @@ services:
       - "4000:4000"
     volumes:
       - "./inception/config.toml:/etc/config.toml"
+    depends_on:
+      mysql:
+        condition: service_started
+      redis:
+        condition: service_started
 
   archery:
     image: hhyo/archery:v1.9.1
@@ -34,6 +39,11 @@ services:
     entrypoint: "dockerize -wait tcp://mysql:3306 -wait tcp://redis:6379 -timeout 60s /opt/archery/src/docker/startup.sh"
     env_file:
       - .env
+    depends_on:
+      mysql:
+        condition: service_started
+      redis:
+        condition: service_started
 
   redis:
     image: redis
