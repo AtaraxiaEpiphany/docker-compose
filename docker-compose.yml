@@ -1,4 +1,4 @@
-version: '3'
+version: '3.3'
 
 volumes:
   mysql-data:
@@ -17,13 +17,12 @@ services:
     volumes:
       - "./inception/config.toml:/etc/config.toml"
     depends_on:
-      mysql:
-        condition: service_started
-      redis:
-        condition: service_started
+      - mysql
+      - redis
+
 
   archery:
-    image: hhyo/archery:v1.9.1
+    image: hhyo/archery
     container_name: archery
     restart: always
     ports:
@@ -40,16 +39,14 @@ services:
     env_file:
       - .env
     depends_on:
-      mysql:
-        condition: service_started
-      redis:
-        condition: service_started
+      - mysql
+      - redis
 
   redis:
     image: redis
     container_name: redis
     restart: always
-    command: redis-server --requirepass 9660527
+    command: redis-server --requirepass 9660527 --save 60 1 --loglevel warning
     volumes:
       - "redis-data:/data"
     ports:
