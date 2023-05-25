@@ -1,5 +1,5 @@
-name: ${PROJECT_NAME:-sentinel}
-version: "3.8"
+#name: ${PROJECT_NAME:-sentinel}
+version: "3.3"
 
 services:
   sentinel:
