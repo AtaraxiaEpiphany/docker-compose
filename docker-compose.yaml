@@ -24,7 +24,7 @@ services:
     volumes:
       - es-data:/usr/share/elasticsearch/data
       - es-plugins:/usr/share/elasticsearch/plugins
-    privileged: true
+#    privileged: true
     tty: true
 #    user: root
     ports:
@@ -40,7 +40,7 @@ services:
       - kibana-data:/user/share/kibana/data
     environment:
       - ELASTICSEARCH_HOSTS=http://es:9200
-    privileged: true
+#    privileged: true
     tty: true
 #    user: root
     restart: on-failure
