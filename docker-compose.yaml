@@ -1,20 +1,33 @@
-name: ${PROJECT_NAME:-seata-server}
-version: "3.8"
+version: "3.3"
 services:
-  seata-server:
-    container_name: seata-server
-    image: seataio/seata-server
-    ports:
-      - "7091:7091"
-      - "8091:8091"
-    environment:
-      - STORE_MODE=db
-      # 以SEATA_IP作为host注册seata server
-      - SEATA_IP=localhost
-      - SEATA_PORT=8091
+  nacos:
+    image: nacos/nacos-server
+    container_name: nacos
+    env_file:
+      - ./nacos.env
     volumes:
-#      - "/usr/share/zoneinfo/Asia/Shanghai:/etc/localtime"        #设置系统时区
-#      - "/usr/share/zoneinfo/Asia/Shanghai:/etc/timezone"  #设置时区
-      # 假设我们通过docker cp命令把资源文件拷贝到相对路径`./seata-server/resources`中
-      # 如有问题，请阅读上面的[注意事项]以及[使用自定义配置文件]
-      - "./resources:/seata-server/resources"
+      - ./logs/:/home/nacos/logs
+    ports:
+      - 8848:8848
+      - 9848:9848
+  seata-server:
+    image: seataio/seata-server
+    container_name: seata-server
+    hostname: seata-server
+    ports:
+      - "8091:8091"
+      - "7091:7091"
+    volumes:
+      - ./resources:/seata-server/resources
+    environment:
+      - SEATA_IP=8.130.131.185 #The registry ip in nacos.
+      - SEATA_PORT=8091
+      - STORE_MODE=file
+      - JVM_XMS=512m
+      - JVM_XMX=512m
+    depends_on:
+      - nacos
+
+
+
+

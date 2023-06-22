@@ -1,0 +1,110 @@
+2023-06-21 22:33:40,524 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2023-06-21 22:33:40,524 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2023-06-21 22:33:40,525 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2023-06-21 22:33:40,525 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2023-06-21 22:33:41,940 INFO Load instance extension handler []
+
+2023-06-21 22:36:10,892 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2023-06-21 22:36:10,902 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2023-06-21 22:36:51,170 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2023-06-21 22:36:51,170 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2023-06-21 22:36:51,171 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2023-06-21 22:36:51,171 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2023-06-21 22:36:52,361 INFO Load instance extension handler []
+
+2023-06-21 22:59:30,591 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2023-06-21 22:59:30,608 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2023-06-21 23:00:44,194 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2023-06-21 23:00:44,194 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2023-06-21 23:00:44,196 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2023-06-21 23:00:44,196 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2023-06-21 23:00:45,890 INFO Load instance extension handler []
+
+2023-06-21 23:08:01,531 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2023-06-21 23:08:01,535 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2023-06-21 23:08:15,832 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2023-06-21 23:08:15,832 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2023-06-21 23:08:15,833 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2023-06-21 23:08:15,834 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2023-06-21 23:08:17,220 INFO Load instance extension handler []
+
+2023-06-21 23:15:35,727 INFO Client connection 172.21.0.2:8091#true connect
+
+2023-06-21 23:15:35,736 INFO Client change for service Service{namespace='seata', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=0}, 172.21.0.2:8091#true
+
+2023-06-21 23:19:02,909 INFO Client remove for service Service{namespace='seata', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=1}, 172.21.0.2:8091#true
+
+2023-06-21 23:19:19,695 INFO Client change for service Service{namespace='seata', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=2}, 172.21.0.2:8091#true
+
+2023-06-21 23:20:08,382 INFO Client remove for service Service{namespace='seata', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=3}, 172.21.0.2:8091#true
+
+2023-06-21 23:20:41,215 INFO Client connection 172.21.0.2:8091#true disconnect, remove instances and subscribers
+
+2023-06-21 23:21:46,683 WARN namespace : seata, [SEATA_GROUP@@seata-server] services are automatically cleaned
+
+2023-06-21 23:24:56,056 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2023-06-21 23:24:56,063 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2023-06-21 23:25:23,737 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2023-06-21 23:25:23,737 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2023-06-21 23:25:23,740 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2023-06-21 23:25:23,740 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2023-06-21 23:25:25,224 INFO Load instance extension handler []
+
+2023-06-21 23:25:28,510 INFO Client connection 172.22.0.3:8091#true connect
+
+2023-06-21 23:25:28,523 INFO Client change for service Service{namespace='seata', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=0}, 172.22.0.3:8091#true
+
+2023-06-21 23:25:31,454 INFO Client remove for service Service{namespace='seata', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=1}, 172.22.0.3:8091#true
+
+2023-06-21 23:25:37,242 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2023-06-21 23:25:37,262 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2023-06-21 23:25:59,665 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2023-06-21 23:25:59,665 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2023-06-21 23:25:59,666 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2023-06-21 23:25:59,666 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2023-06-21 23:26:00,995 INFO Load instance extension handler []
+
+2023-06-21 23:26:04,344 INFO Client connection 172.22.0.3:8091#true connect
+
+2023-06-21 23:26:04,370 INFO Client change for service Service{namespace='seata', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=0}, 172.22.0.3:8091#true
+
+2023-06-21 23:27:35,220 INFO Client remove for service Service{namespace='seata', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=1}, 172.22.0.3:8091#true
+
+2023-06-21 23:27:49,024 INFO Client change for service Service{namespace='public', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=0}, 172.22.0.3:8091#true
+
+2023-06-21 23:29:30,491 WARN namespace : seata, [SEATA_GROUP@@seata-server] services are automatically cleaned
+

@@ -1,0 +1,4 @@
+2023-06-21 23:18:46,301 INFO [dump-task] add task. groupKey=seataServer.properties+SEATA_GROUP+seata, taskKey=seataServer.properties+SEATA_GROUP+seata+false+null
+
+2023-06-21 23:30:13,546 INFO [dump-task] add task. groupKey=seataServer.properties+SEATA_GROUP, taskKey=seataServer.properties+SEATA_GROUP++false+null
+

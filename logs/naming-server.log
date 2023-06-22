@@ -1,0 +1,394 @@
+2023-06-22 10:17:24,533 INFO Client connection 1687400244328_115.199.109.224_9258 connect
+
+2023-06-22 10:17:27,272 INFO Client connection 1687400244328_115.199.109.224_9258 disconnect, remove instances and subscribers
+
+2023-06-22 10:19:22,846 INFO Client connection 1687400362721_115.199.109.224_9382 connect
+
+2023-06-22 10:19:24,683 INFO Client connection 1687400364586_115.199.109.224_9384 connect
+
+2023-06-22 10:19:24,799 INFO Client change for service Service{namespace='public', group='SEATA_GROUP', name='demo-application', ephemeral=true, revision=0}, 1687400364586_115.199.109.224_9384
+
+2023-06-22 10:19:37,793 INFO Client remove for service Service{namespace='public', group='SEATA_GROUP', name='demo-application', ephemeral=true, revision=1}, 1687400364586_115.199.109.224_9384
+
+2023-06-22 10:19:38,185 INFO Client connection 1687400364586_115.199.109.224_9384 disconnect, remove instances and subscribers
+
+2023-06-22 10:19:38,186 INFO Client connection 1687400362721_115.199.109.224_9382 disconnect, remove instances and subscribers
+
+2023-06-22 10:19:42,162 INFO Client connection 1687400381999_115.199.109.224_9416 connect
+
+2023-06-22 10:19:54,148 INFO Client connection 1687400394070_115.199.109.224_9436 connect
+
+2023-06-22 10:19:54,253 INFO Client change for service Service{namespace='public', group='SEATA_GROUP', name='demo-application', ephemeral=true, revision=2}, 1687400394070_115.199.109.224_9436
+
+2023-06-22 10:27:46,840 INFO Client remove for service Service{namespace='public', group='SEATA_GROUP', name='demo-application', ephemeral=true, revision=3}, 1687400394070_115.199.109.224_9436
+
+2023-06-22 10:27:47,243 INFO Client connection 1687400394070_115.199.109.224_9436 disconnect, remove instances and subscribers
+
+2023-06-22 10:27:47,247 INFO Client connection 1687400381999_115.199.109.224_9416 disconnect, remove instances and subscribers
+
+2023-06-22 10:29:33,264 WARN namespace : public, [SEATA_GROUP@@demo-application] services are automatically cleaned
+
+2023-06-22 11:17:45,829 INFO Client connection 1687403865661_115.199.109.224_4718 connect
+
+2023-06-22 11:17:46,310 INFO Client connection 1687403865661_115.199.109.224_4718 disconnect, remove instances and subscribers
+
+2023-06-22 11:17:54,356 INFO Client connection 1687403874233_115.199.109.224_4744 connect
+
+2023-06-22 11:17:54,848 INFO Client connection 1687403874233_115.199.109.224_4744 disconnect, remove instances and subscribers
+
+2023-06-22 11:18:30,163 INFO Client connection 1687403910037_115.199.109.224_4815 connect
+
+2023-06-22 11:18:30,274 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='account-service', ephemeral=true, revision=0}, 1687403910037_115.199.109.224_4815
+
+2023-06-22 11:18:32,978 INFO Client connection 1687403912864_115.199.109.224_4822 connect
+
+2023-06-22 11:18:33,089 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='storage-service', ephemeral=true, revision=0}, 1687403912864_115.199.109.224_4822
+
+2023-06-22 11:20:03,063 INFO Client connection 1687404002949_115.199.109.224_4989 connect
+
+2023-06-22 11:20:03,174 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='order-service', ephemeral=true, revision=0}, 1687404002949_115.199.109.224_4989
+
+2023-06-22 11:23:50,244 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='account-service', ephemeral=true, revision=1}, 1687403910037_115.199.109.224_4815
+
+2023-06-22 11:23:50,259 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='order-service', ephemeral=true, revision=1}, 1687404002949_115.199.109.224_4989
+
+2023-06-22 11:23:50,268 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='storage-service', ephemeral=true, revision=1}, 1687403912864_115.199.109.224_4822
+
+2023-06-22 11:23:50,655 INFO Client connection 1687404002949_115.199.109.224_4989 disconnect, remove instances and subscribers
+
+2023-06-22 11:23:50,674 INFO Client connection 1687403912864_115.199.109.224_4822 disconnect, remove instances and subscribers
+
+2023-06-22 11:23:50,823 INFO Client connection 1687403910037_115.199.109.224_4815 disconnect, remove instances and subscribers
+
+2023-06-22 11:23:59,287 INFO Client connection 1687404239153_115.199.109.224_5440 connect
+
+2023-06-22 11:23:59,413 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='order-service', ephemeral=true, revision=2}, 1687404239153_115.199.109.224_5440
+
+2023-06-22 11:24:02,235 INFO Client connection 1687404242090_115.199.109.224_5450 connect
+
+2023-06-22 11:24:02,350 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='account-service', ephemeral=true, revision=2}, 1687404242090_115.199.109.224_5450
+
+2023-06-22 11:24:05,644 INFO Client connection 1687404245511_115.199.109.224_5456 connect
+
+2023-06-22 11:24:05,769 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='storage-service', ephemeral=true, revision=2}, 1687404245511_115.199.109.224_5456
+
+2023-06-22 11:39:46,272 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='storage-service', ephemeral=true, revision=3}, 1687404245511_115.199.109.224_5456
+
+2023-06-22 11:39:46,278 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='order-service', ephemeral=true, revision=3}, 1687404239153_115.199.109.224_5440
+
+2023-06-22 11:39:46,279 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='account-service', ephemeral=true, revision=3}, 1687404242090_115.199.109.224_5450
+
+2023-06-22 11:39:46,657 INFO Client connection 1687404245511_115.199.109.224_5456 disconnect, remove instances and subscribers
+
+2023-06-22 11:39:46,663 INFO Client connection 1687404242090_115.199.109.224_5450 disconnect, remove instances and subscribers
+
+2023-06-22 11:39:46,665 INFO Client connection 1687404239153_115.199.109.224_5440 disconnect, remove instances and subscribers
+
+2023-06-22 11:41:34,121 WARN namespace : public, [DEFAULT_GROUP@@storage-service] services are automatically cleaned
+
+2023-06-22 11:41:34,122 WARN namespace : public, [DEFAULT_GROUP@@order-service] services are automatically cleaned
+
+2023-06-22 11:41:34,122 WARN namespace : public, [DEFAULT_GROUP@@account-service] services are automatically cleaned
+
+2023-06-22 11:44:15,380 INFO Client connection 1687405455252_115.199.109.224_7696 connect
+
+2023-06-22 11:44:18,833 INFO Client connection 1687405458713_115.199.109.224_7708 connect
+
+2023-06-22 11:44:21,668 INFO Client connection 1687405461554_115.199.109.224_7715 connect
+
+2023-06-22 11:44:38,368 INFO Client connection 1687405478277_115.199.109.224_7738 connect
+
+2023-06-22 11:44:38,479 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='account-service', ephemeral=true, revision=0}, 1687405478277_115.199.109.224_7738
+
+2023-06-22 11:44:41,882 INFO Client connection 1687405481819_115.199.109.224_7743 connect
+
+2023-06-22 11:44:41,988 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='order-service', ephemeral=true, revision=0}, 1687405481819_115.199.109.224_7743
+
+2023-06-22 11:44:44,417 INFO Client connection 1687405484347_115.199.109.224_7748 connect
+
+2023-06-22 11:44:44,521 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='storage-service', ephemeral=true, revision=0}, 1687405484347_115.199.109.224_7748
+
+2023-06-22 11:48:10,644 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='storage-service', ephemeral=true, revision=1}, 1687405484347_115.199.109.224_7748
+
+2023-06-22 11:48:11,031 INFO Client connection 1687405461554_115.199.109.224_7715 disconnect, remove instances and subscribers
+
+2023-06-22 11:48:11,032 INFO Client connection 1687405484347_115.199.109.224_7748 disconnect, remove instances and subscribers
+
+2023-06-22 11:48:12,679 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='order-service', ephemeral=true, revision=1}, 1687405481819_115.199.109.224_7743
+
+2023-06-22 11:48:13,087 INFO Client connection 1687405458713_115.199.109.224_7708 disconnect, remove instances and subscribers
+
+2023-06-22 11:48:13,088 INFO Client connection 1687405481819_115.199.109.224_7743 disconnect, remove instances and subscribers
+
+2023-06-22 11:48:13,778 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='account-service', ephemeral=true, revision=1}, 1687405478277_115.199.109.224_7738
+
+2023-06-22 11:48:14,169 INFO Client connection 1687405455252_115.199.109.224_7696 disconnect, remove instances and subscribers
+
+2023-06-22 11:48:14,173 INFO Client connection 1687405478277_115.199.109.224_7738 disconnect, remove instances and subscribers
+
+2023-06-22 11:48:38,540 INFO Client connection 1687405718430_115.199.109.224_8401 connect
+
+2023-06-22 11:48:50,561 INFO Client connection 1687405730475_115.199.109.224_8418 connect
+
+2023-06-22 11:48:50,664 INFO Client change for service Service{namespace='public', group='SEATA_GROUP', name='demo-application', ephemeral=true, revision=0}, 1687405730475_115.199.109.224_8418
+
+2023-06-22 11:49:08,785 INFO Client remove for service Service{namespace='public', group='SEATA_GROUP', name='demo-application', ephemeral=true, revision=1}, 1687405730475_115.199.109.224_8418
+
+2023-06-22 11:49:09,108 INFO Client connection 1687405730475_115.199.109.224_8418 disconnect, remove instances and subscribers
+
+2023-06-22 11:49:09,108 INFO Client connection 1687405718430_115.199.109.224_8401 disconnect, remove instances and subscribers
+
+2023-06-22 11:49:34,217 WARN namespace : public, [DEFAULT_GROUP@@order-service] services are automatically cleaned
+
+2023-06-22 11:49:34,218 WARN namespace : public, [DEFAULT_GROUP@@storage-service] services are automatically cleaned
+
+2023-06-22 11:49:34,218 WARN namespace : public, [DEFAULT_GROUP@@account-service] services are automatically cleaned
+
+2023-06-22 11:50:34,241 WARN namespace : public, [SEATA_GROUP@@demo-application] services are automatically cleaned
+
+2023-06-22 11:51:42,275 INFO Client connection 1687405902149_115.199.109.224_8818 connect
+
+2023-06-22 11:52:05,325 INFO Client connection 1687405925234_115.199.109.224_8860 connect
+
+2023-06-22 11:52:05,431 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='order-service', ephemeral=true, revision=0}, 1687405925234_115.199.109.224_8860
+
+2023-06-22 11:52:08,968 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='order-service', ephemeral=true, revision=1}, 1687405925234_115.199.109.224_8860
+
+2023-06-22 11:52:09,820 INFO Client connection 1687405902149_115.199.109.224_8818 disconnect, remove instances and subscribers
+
+2023-06-22 11:52:09,822 INFO Client connection 1687405925234_115.199.109.224_8860 disconnect, remove instances and subscribers
+
+2023-06-22 11:52:13,858 INFO Client connection 1687405933719_115.199.109.224_8879 connect
+
+2023-06-22 11:52:37,089 INFO Client connection 1687405957014_115.199.109.224_8927 connect
+
+2023-06-22 11:52:37,203 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='order-service', ephemeral=true, revision=2}, 1687405957014_115.199.109.224_8927
+
+2023-06-22 11:53:34,068 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='order-service', ephemeral=true, revision=3}, 1687405957014_115.199.109.224_8927
+
+2023-06-22 11:53:34,458 INFO Client connection 1687405957014_115.199.109.224_8927 disconnect, remove instances and subscribers
+
+2023-06-22 11:53:34,465 INFO Client connection 1687405933719_115.199.109.224_8879 disconnect, remove instances and subscribers
+
+2023-06-22 11:54:34,274 WARN namespace : public, [DEFAULT_GROUP@@order-service] services are automatically cleaned
+
+2023-06-22 12:01:07,139 INFO Client connection 1687406467021_115.199.109.224_9801 connect
+
+2023-06-22 12:01:30,290 INFO Client connection 1687406490175_115.199.109.224_9827 connect
+
+2023-06-22 12:01:30,394 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='order-service', ephemeral=true, revision=0}, 1687406490175_115.199.109.224_9827
+
+2023-06-22 12:16:17,857 INFO Client remove for service Service{namespace='public', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=1}, 172.22.0.3:8091#true
+
+2023-06-22 12:16:32,233 INFO Client change for service Service{namespace='public', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=2}, 172.22.0.3:8091#true
+
+2023-06-22 12:18:00,043 INFO Client remove for service Service{namespace='public', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=3}, 172.22.0.3:8091#true
+
+2023-06-22 12:18:05,464 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2023-06-22 12:18:05,479 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2023-06-22 12:18:05,557 INFO Client connection 1687406490175_115.199.109.224_9827 disconnect, remove instances and subscribers
+
+2023-06-22 12:18:05,561 INFO Client connection 1687406467021_115.199.109.224_9801 disconnect, remove instances and subscribers
+
+2023-06-22 12:18:33,972 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2023-06-22 12:18:33,972 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2023-06-22 12:18:33,973 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2023-06-22 12:18:33,973 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2023-06-22 12:18:35,464 INFO Load instance extension handler []
+
+2023-06-22 12:18:37,966 INFO Client connection 1687407517611_115.199.109.224_11681 connect
+
+2023-06-22 12:18:37,991 INFO Client connection 1687407517629_115.199.109.224_11682 connect
+
+2023-06-22 12:18:40,696 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='order-service', ephemeral=true, revision=0}, 1687407517629_115.199.109.224_11682
+
+2023-06-22 12:18:40,717 INFO Client connection 8.130.131.185:8091#true connect
+
+2023-06-22 12:18:40,725 INFO Client change for service Service{namespace='public', group='SEATA_GROUP', name='seata-server', ephemeral=true, revision=0}, 8.130.131.185:8091#true
+
+2023-06-22 12:19:14,461 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='order-service', ephemeral=true, revision=1}, 1687407517629_115.199.109.224_11682
+
+2023-06-22 12:19:14,859 INFO Client connection 1687407517611_115.199.109.224_11681 disconnect, remove instances and subscribers
+
+2023-06-22 12:19:14,869 INFO Client connection 1687407517629_115.199.109.224_11682 disconnect, remove instances and subscribers
+
+2023-06-22 12:19:19,212 INFO Client connection 1687407559054_115.199.109.224_11761 connect
+
+2023-06-22 12:19:22,559 INFO Client connection 1687407562474_115.199.109.224_11767 connect
+
+2023-06-22 12:19:22,665 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='order-service', ephemeral=true, revision=2}, 1687407562474_115.199.109.224_11767
+
+2023-06-22 12:24:50,960 INFO Client connection 1687407890818_115.199.109.224_12231 connect
+
+2023-06-22 12:24:54,200 INFO Client connection 1687407894094_115.199.109.224_12248 connect
+
+2023-06-22 12:24:54,374 INFO Client connection 1687407894308_115.199.109.224_12250 connect
+
+2023-06-22 12:24:54,501 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='account-service', ephemeral=true, revision=0}, 1687407894308_115.199.109.224_12250
+
+2023-06-22 12:24:57,464 INFO Client connection 1687407897347_115.199.109.224_12262 connect
+
+2023-06-22 12:24:57,556 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='storage-service', ephemeral=true, revision=0}, 1687407897347_115.199.109.224_12262
+
+2023-06-22 12:28:07,200 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='account-service', ephemeral=true, revision=1}, 1687407894308_115.199.109.224_12250
+
+2023-06-22 12:28:07,236 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='order-service', ephemeral=true, revision=3}, 1687407562474_115.199.109.224_11767
+
+2023-06-22 12:28:07,265 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='storage-service', ephemeral=true, revision=1}, 1687407897347_115.199.109.224_12262
+
+2023-06-22 12:28:07,581 INFO Client connection 1687407894308_115.199.109.224_12250 disconnect, remove instances and subscribers
+
+2023-06-22 12:28:07,586 INFO Client connection 1687407890818_115.199.109.224_12231 disconnect, remove instances and subscribers
+
+2023-06-22 12:28:07,619 INFO Client connection 1687407559054_115.199.109.224_11761 disconnect, remove instances and subscribers
+
+2023-06-22 12:28:07,624 INFO Client connection 1687407562474_115.199.109.224_11767 disconnect, remove instances and subscribers
+
+2023-06-22 12:28:07,661 INFO Client connection 1687407897347_115.199.109.224_12262 disconnect, remove instances and subscribers
+
+2023-06-22 12:28:07,664 INFO Client connection 1687407894094_115.199.109.224_12248 disconnect, remove instances and subscribers
+
+2023-06-22 12:28:11,990 INFO Client connection 1687408091862_115.199.109.224_12573 connect
+
+2023-06-22 12:28:13,500 INFO Client connection 1687408093378_115.199.109.224_12578 connect
+
+2023-06-22 12:28:14,769 INFO Client connection 1687408094702_115.199.109.224_12584 connect
+
+2023-06-22 12:28:15,276 INFO Client connection 1687408095199_115.199.109.224_12588 connect
+
+2023-06-22 12:28:15,388 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='account-service', ephemeral=true, revision=2}, 1687408095199_115.199.109.224_12588
+
+2023-06-22 12:28:17,281 INFO Client connection 1687408097209_115.199.109.224_12593 connect
+
+2023-06-22 12:28:17,392 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='order-service', ephemeral=true, revision=4}, 1687408097209_115.199.109.224_12593
+
+2023-06-22 12:28:18,318 INFO Client connection 1687408098235_115.199.109.224_12598 connect
+
+2023-06-22 12:28:18,420 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='storage-service', ephemeral=true, revision=2}, 1687408098235_115.199.109.224_12598
+
+2023-06-22 12:44:21,615 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='order-service', ephemeral=true, revision=5}, 1687408097209_115.199.109.224_12593
+
+2023-06-22 12:44:21,999 INFO Client connection 1687408097209_115.199.109.224_12593 disconnect, remove instances and subscribers
+
+2023-06-22 12:44:22,000 INFO Client connection 1687408093378_115.199.109.224_12578 disconnect, remove instances and subscribers
+
+2023-06-22 12:44:26,495 INFO Client connection 1687409066362_115.199.109.224_5261 connect
+
+2023-06-22 12:44:29,766 INFO Client connection 1687409069633_115.199.109.224_5278 connect
+
+2023-06-22 12:44:29,902 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='order-service', ephemeral=true, revision=6}, 1687409069633_115.199.109.224_5278
+
+2023-06-22 12:45:58,172 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='order-service', ephemeral=true, revision=7}, 1687409069633_115.199.109.224_5278
+
+2023-06-22 12:45:58,174 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='account-service', ephemeral=true, revision=3}, 1687408095199_115.199.109.224_12588
+
+2023-06-22 12:45:58,560 INFO Client connection 1687409069633_115.199.109.224_5278 disconnect, remove instances and subscribers
+
+2023-06-22 12:45:58,561 INFO Client connection 1687409066362_115.199.109.224_5261 disconnect, remove instances and subscribers
+
+2023-06-22 12:45:58,568 INFO Client connection 1687408091862_115.199.109.224_12573 disconnect, remove instances and subscribers
+
+2023-06-22 12:45:58,574 INFO Client connection 1687408095199_115.199.109.224_12588 disconnect, remove instances and subscribers
+
+2023-06-22 12:46:02,878 INFO Client connection 1687409162767_115.199.109.224_5411 connect
+
+2023-06-22 12:46:04,033 INFO Client connection 1687409163914_115.199.109.224_5414 connect
+
+2023-06-22 12:46:06,293 INFO Client connection 1687409166215_115.199.109.224_5422 connect
+
+2023-06-22 12:46:06,409 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='order-service', ephemeral=true, revision=8}, 1687409166215_115.199.109.224_5422
+
+2023-06-22 12:46:07,270 INFO Client connection 1687409167176_115.199.109.224_5425 connect
+
+2023-06-22 12:46:07,373 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='account-service', ephemeral=true, revision=4}, 1687409167176_115.199.109.224_5425
+
+2023-06-22 12:50:51,773 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='order-service', ephemeral=true, revision=9}, 1687409166215_115.199.109.224_5422
+
+2023-06-22 12:50:52,174 INFO Client connection 1687409162767_115.199.109.224_5411 disconnect, remove instances and subscribers
+
+2023-06-22 12:50:52,175 INFO Client connection 1687409166215_115.199.109.224_5422 disconnect, remove instances and subscribers
+
+2023-06-22 12:51:00,846 INFO Client connection 1687409460580_115.199.109.224_6038 connect
+
+2023-06-22 12:51:04,137 INFO Client connection 1687409464046_115.199.109.224_6069 connect
+
+2023-06-22 12:51:04,246 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='order-service', ephemeral=true, revision=10}, 1687409464046_115.199.109.224_6069
+
+2023-06-22 13:03:57,404 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='account-service', ephemeral=true, revision=5}, 1687409167176_115.199.109.224_5425
+
+2023-06-22 13:03:57,427 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='order-service', ephemeral=true, revision=11}, 1687409464046_115.199.109.224_6069
+
+2023-06-22 13:03:57,450 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='storage-service', ephemeral=true, revision=3}, 1687408098235_115.199.109.224_12598
+
+2023-06-22 13:03:57,811 INFO Client connection 1687409163914_115.199.109.224_5414 disconnect, remove instances and subscribers
+
+2023-06-22 13:03:57,816 INFO Client connection 1687409167176_115.199.109.224_5425 disconnect, remove instances and subscribers
+
+2023-06-22 13:03:57,816 INFO Client connection 1687409460580_115.199.109.224_6038 disconnect, remove instances and subscribers
+
+2023-06-22 13:03:57,819 INFO Client connection 1687409464046_115.199.109.224_6069 disconnect, remove instances and subscribers
+
+2023-06-22 13:03:57,848 INFO Client connection 1687408098235_115.199.109.224_12598 disconnect, remove instances and subscribers
+
+2023-06-22 13:03:57,854 INFO Client connection 1687408094702_115.199.109.224_12584 disconnect, remove instances and subscribers
+
+2023-06-22 13:04:02,674 INFO Client connection 1687410242540_115.199.109.224_8272 connect
+
+2023-06-22 13:04:03,887 INFO Client connection 1687410243767_115.199.109.224_8283 connect
+
+2023-06-22 13:04:05,149 INFO Client connection 1687410245047_115.199.109.224_8289 connect
+
+2023-06-22 13:04:06,153 INFO Client connection 1687410246072_115.199.109.224_8294 connect
+
+2023-06-22 13:04:06,259 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='order-service', ephemeral=true, revision=12}, 1687410246072_115.199.109.224_8294
+
+2023-06-22 13:04:07,140 INFO Client connection 1687410247035_115.199.109.224_8299 connect
+
+2023-06-22 13:04:07,244 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='storage-service', ephemeral=true, revision=4}, 1687410247035_115.199.109.224_8299
+
+2023-06-22 13:04:08,277 INFO Client connection 1687410248201_115.199.109.224_8302 connect
+
+2023-06-22 13:04:08,383 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='account-service', ephemeral=true, revision=6}, 1687410248201_115.199.109.224_8302
+
+2023-06-22 13:06:25,083 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='account-service', ephemeral=true, revision=7}, 1687410248201_115.199.109.224_8302
+
+2023-06-22 13:06:25,173 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='order-service', ephemeral=true, revision=13}, 1687410246072_115.199.109.224_8294
+
+2023-06-22 13:06:25,185 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='storage-service', ephemeral=true, revision=5}, 1687410247035_115.199.109.224_8299
+
+2023-06-22 13:06:25,469 INFO Client connection 1687410245047_115.199.109.224_8289 disconnect, remove instances and subscribers
+
+2023-06-22 13:06:25,474 INFO Client connection 1687410248201_115.199.109.224_8302 disconnect, remove instances and subscribers
+
+2023-06-22 13:06:25,565 INFO Client connection 1687410246072_115.199.109.224_8294 disconnect, remove instances and subscribers
+
+2023-06-22 13:06:25,572 INFO Client connection 1687410242540_115.199.109.224_8272 disconnect, remove instances and subscribers
+
+2023-06-22 13:06:25,576 INFO Client connection 1687410243767_115.199.109.224_8283 disconnect, remove instances and subscribers
+
+2023-06-22 13:06:25,581 INFO Client connection 1687410247035_115.199.109.224_8299 disconnect, remove instances and subscribers
+
+2023-06-22 13:06:31,158 INFO Client connection 1687410390994_115.199.109.224_8567 connect
+
+2023-06-22 13:06:32,373 INFO Client connection 1687410392187_115.199.109.224_8574 connect
+
+2023-06-22 13:06:33,831 INFO Client connection 1687410393729_115.199.109.224_8580 connect
+
+2023-06-22 13:06:34,751 INFO Client connection 1687410394671_115.199.109.224_8583 connect
+
+2023-06-22 13:06:34,855 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='account-service', ephemeral=true, revision=8}, 1687410394671_115.199.109.224_8583
+
+2023-06-22 13:06:35,846 INFO Client connection 1687410395764_115.199.109.224_8590 connect
+
+2023-06-22 13:06:35,953 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='storage-service', ephemeral=true, revision=6}, 1687410395764_115.199.109.224_8590
+
+2023-06-22 13:06:37,476 INFO Client connection 1687410397394_115.199.109.224_8593 connect
+
+2023-06-22 13:06:37,586 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='order-service', ephemeral=true, revision=14}, 1687410397394_115.199.109.224_8593
+
