@@ -27,10 +27,12 @@ docker run --rm -it cmd-instructions echo message changed
 ```
 
 ### ENTRYPOINT
+
 ```dockerfile
 FROM alpine
 ENTRYPOINT ["echo", "Hello word!"]
 ```
+
 ```shell
 docker build . -t entrypoint-instructions
 docker run --rm -it  entrypoint-instructions
@@ -41,12 +43,15 @@ docker run --rm -it entrypoint-instructions echo message changed
 docker run --rm -it --entrypoint env entrypoint-instructions
 # output: some env variables
 ```
+
 ### Combine CMD and ENTRYPOINT
+
 ```dockerfile
 FROM alpine
 ENTRYPOINT ["echo", "Hello entrypoint!"]
 CMD ["Hello cmd!"]
 ```
+
 ```shell
 docker build . -t entrypoint-cmd
 docker run --rm -it entrypoint-cmd
@@ -55,6 +60,38 @@ docker run --rm -it entrypoint-cmd hello Hannibal!
 # output: Hello entrypoint! hello Hannibal!
 ```
 
+## Healthy check
+
+> The HEALTHCHECK instruction tells Docker how to test a container to check that it is still `working`.
+
+### Options
+
+- `interval`=DURATION (default: 30s)
+- `timeout`=DURATION (default: 30s)
+- `start-period`=DURATION (default: 0s)
+- `retries`=N (default: 3)
+
+> The health check will first run `interval` seconds after the container is started, and then again `interval` seconds
+> after each previous check completes.
+>
+> If a single run of the check takes longer than `timeout` seconds then the check is considered to have failed.
+>
+> It takes `retries` **consecutive failures** of the health check for the container to be considered `unhealthy`.
+>
+> `start period` provides initialization time for containers that need time to bootstrap. Probe failure during that
+> period will not be counted towards the maximum number of retries. However, if a health check succeeds during the start
+> period, the container is considered started and all consecutive failures will be counted towards the maximum number
+> of retries.
+
+### Status:
+
+> The command’s `exit status` indicates the health status of the container.
+
+The possible values are:
+
+- 0: `success` - the container is healthy and ready for use
+- 1: `unhealthy` - the container is not working correctly
+- 2: `reserved` - do not use this exit code
 
 ## Some commands
 
